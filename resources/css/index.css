@@ -1,0 +1,406 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+header {
+    background: linear-gradient(#00000087, #000000c2), url(./img/laptop.jpg) center center fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.myBtm {
+    margin: 20px;
+    padding: 8px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    background: linear-gradient(to bottom, #7530fd, #8a8a8a);
+    color: wheat;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+}
+
+.myBtm:hover {
+    background: linear-gradient(to bottom, #c9c5e5, #fd8e30);
+    color: black;
+}
+
+.myHeading {
+    margin: 10px;
+    font-weight: 300;
+    font-style: oblique;
+    font-size: xx-large;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.myName {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.myHeading::after {
+    display: block;
+    width: 200px;
+    background: wheat;
+    height: 2px;
+    content: '';
+    margin-top: 5px;
+}
+
+.footerStyling {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #636363;
+}
+
+.footerTitle {
+    color: wheat
+}
+
+.styleIntro {
+    display: flex;
+    flex-flow: column;
+    height: 80vh;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.insideOfIntroBox,
+.insideOfIntroBoxBtn {
+    display: flex;
+    width: 460px;
+    height: 30px;
+    border: 1px solid wheat;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding: 25px;
+    font-style: italic;
+    margin: 4px;
+}
+
+.insideOfIntroBoxBtn {
+    width: 100px;
+}
+
+.stylingDetailsAndBtn {
+    display: flex;
+    flex-flow: row;
+}
+
+.insideOfIntroBox:hover,
+.insideOfIntroBoxBtn:hover {
+    padding: 24px;
+    border: 2px solid wheat;
+}
+
+.givingBeltLook {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+.titleUnderline {
+    font-size: 2em;
+    text-align: center;
+}
+
+.titleUnderline:after {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 100px;
+    background: #7530fd;
+    margin: 15px auto;
+}
+
+.card {
+    height: 420px;
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 9px 0px #888888;
+}
+
+.sectionACard {
+    display: flex;
+    justify-content: space-between
+}
+
+.cardContentStyling {
+    display: flex;
+    align-items: center;
+    /* background: #f7f7f7; */
+}
+
+.contentData {
+    margin: 10px;
+    padding: 10px
+}
+
+.hrModify {
+    border-color: #80808014;
+}
+
+.evenSection {
+    background: #f7f7f7;
+    height: 450px;
+}
+
+.imgCard {
+    height: 200px;
+    width: 300px;
+    background: white;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.commentClass {
+    height: 85px;
+    padding: 15px;
+    text-align: justify;
+    font-size: 0.9em;
+    border: 1px solid #e1dada;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#delayConcerns {
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+.showClass {
+    visibility: visible;
+}
+
+.hideClass {
+    visibility: hidden;
+}
+
+.afterBtn:after {
+    display: block;
+    content: '';
+    width: 750px;
+    height: 2.5px;
+    background: wheat;
+    margin: -20px 20px 0 auto;
+}
+
+#sectionC {
+    height: 500px;
+    background: linear-gradient(#000000b5, #000000cc), url(./img/self.jpg) center center fixed;
+
+}
+
+.straightLineForMultiPurpose {
+    height: 300px;
+}
+
+.straightLineForMultiPurpose::before {
+    position: absolute;
+    height: 350px;
+    content: '';
+    width: 3px;
+    background: wheat;
+    margin: 0 -15px;
+}
+
+.liStyling {
+    font-size: 2em;
+    color: wheat;
+    height: 100px;
+    margin: 9px;
+    padding: 10px;
+}
+
+.educationDescription {
+    font-size: 1em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgSneaking {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    margin: -5px 0 0 20px;
+}
+
+.percentInfo {
+    height: 25px;
+    border: 1ps solid whitesmoke;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid #cecece;
+    padding: 5px;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.educationSpaceing {
+    width: 33%;
+}
+
+.flex {
+    display: flex;
+}
+
+.lightTheme {
+    color: wheat;
+}
+
+.fontDown {
+    font-size: 0.5em;
+}
+
+/* Skill-set */
+#sectionD {
+    height: 600px;
+}
+
+.imgSeperators {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.widthStyle {
+    overflow: hidden;
+    width: 33%;
+    margin: 1px;
+}
+
+.zoomableImgs {
+    height: 260px;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.zoomableImgs:hover {
+    transform: scale(1.06);
+    transition: all 0.5s;
+}
+
+.jstImg {
+    height: 100%;
+    width: 100%;
+}
+
+
+.img1 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/1.jpg) no-repeat bottom;
+}
+
+.img2 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/2.jpg) no-repeat bottom;
+}
+
+.img3 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/3.jpg) no-repeat bottom;
+}
+
+.img4 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/4.jpg) no-repeat;
+}
+
+.img5 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/5.jpg) no-repeat;
+}
+
+.img6 {
+    background: linear-gradient(#0000008f, #0000008f), url(./img/6.jpg) no-repeat;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    background-size: cover;
+}
+
+/* Certification - sectionE */
+#sectionE {
+    height: 500px;
+}
+
+.flexWithData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionForText {
+    position: absolute;
+    z-index: 1;
+    color: wheat;
+    margin: -160px 0 0px 160px;
+}
+
+.skillsStyling {
+    font-size: 2em;
+    font-weight: 100;
+    border: 1px solid;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.skillsStyling:hover{
+    border: 2px solid;
+    padding: 9px;
+}
+
+.certCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 1ps solid gray;
+    width: 25%;
+    margin: 3px;
+    box-shadow: inset 0px 0px 10px 0px #888888;
+    padding: 10px;
+}
+
+.certNames{
+    font-size: 2em;
+}
+.certInsti{
+    font-size: 0.8em;
+}
+
+.certCard{
+    color: #8080a1;
+    font-weight: 100;
+}
