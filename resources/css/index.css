@@ -154,7 +154,6 @@ section {
 .cardContentStyling {
     display: flex;
     align-items: center;
-    /* background: #f7f7f7; */
 }
 
 .contentData {
@@ -212,6 +211,8 @@ section {
     margin: -20px 20px 0 auto;
 }
 
+
+/* Education Section  */
 #sectionC {
     height: 500px;
     background: linear-gradient(#000000b5, #000000cc), url(./img/self.jpg) center center fixed;
@@ -280,7 +281,8 @@ section {
     font-size: 0.5em;
 }
 
-/* Skill-set */
+/* Skill-set Section*/
+
 #sectionD {
     height: 600px;
 }
@@ -349,7 +351,7 @@ section {
 
 /* Certification - sectionE */
 #sectionE {
-    height: 500px;
+    height: 350px;
 }
 
 .flexWithData {
@@ -375,12 +377,12 @@ section {
     border-radius: 3px;
 }
 
-.skillsStyling:hover{
+.skillsStyling:hover {
     border: 2px solid;
     padding: 9px;
 }
 
-.certCard{
+.certCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,14 +395,16 @@ section {
     padding: 10px;
 }
 
-.certNames{
+.certNames {
     font-size: 2em;
 }
-.certInsti{
+
+.certInsti {
     font-size: 0.8em;
 }
 
-.certCard{
+.certCard {
     color: #8080a1;
     font-weight: 100;
 }
+
