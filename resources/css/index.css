@@ -26,14 +26,14 @@ section {
 }
 
 .myBtm {
-    margin: 20px;
+    margin: 15px;
     padding: 8px;
     width: 120px;
     border-radius: 5px;
     border: none;
     text-transform: uppercase;
     font-size: 0.75em;
-    background: linear-gradient(to bottom, #7530fd, #8a8a8a);
+    background: linear-gradient(to bottom, #100f4a91, #8a8a8a87);
     color: wheat;
     cursor: pointer;
     font-weight: 700;
@@ -41,9 +41,37 @@ section {
 }
 
 .myBtm:hover {
-    background: linear-gradient(to bottom, #c9c5e5, #fd8e30);
-    color: black;
+    background: linear-gradient(to bottom, #8a8a8a, #100f4a);
+    color: wheat
 }
+
+.menuAlignment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headAlignments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headAlignmentsBtnArea {
+    margin-top: 20px;
+}
+
+.afterBtn {
+    margin: 0;
+}
+
+.afterBtn:after {
+    display: block;
+    content: '';
+    width: 860px;
+    height: 2.5px;
+    background: wheat;
+    margin: -5px 20px 0 auto;
+}
+
 
 .myHeading {
     margin: 10px;
@@ -52,6 +80,7 @@ section {
     font-size: xx-large;
     color: whitesmoke;
     padding: 10px;
+    margin-bottom: 0;
 }
 
 .myName {
@@ -140,7 +169,6 @@ section {
 
 .card {
     height: 420px;
-    border: 1px solid whitesmoke;
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0px 0px 9px 0px #888888;
@@ -200,15 +228,6 @@ section {
 
 .hideClass {
     visibility: hidden;
-}
-
-.afterBtn:after {
-    display: block;
-    content: '';
-    width: 750px;
-    height: 2.5px;
-    background: wheat;
-    margin: -20px 20px 0 auto;
 }
 
 
@@ -306,7 +325,7 @@ section {
 }
 
 .zoomableImgs:hover {
-    transform: scale(1.06);
+    transform: scale(1.13);
     transition: all 0.5s;
 }
 
@@ -393,6 +412,13 @@ section {
     margin: 3px;
     box-shadow: inset 0px 0px 10px 0px #888888;
     padding: 10px;
+    transition: all 0.3s;
+}
+
+.certCard:hover {
+    box-shadow: inset 0px 0px 15px 0px #7c9fef;
+    transform: translate(0px, 4px);
+    transition: all 0.3s;
 }
 
 .certNames {
@@ -408,3 +434,51 @@ section {
     font-weight: 100;
 }
 
+
+/* My Interests */
+#sectionF {
+    height: 600px;
+    ;
+}
+
+.titleAbove {
+    font-size: 1.4em;
+}
+
+.titleAbove::after {
+    background: #1b72d6;
+    margin-bottom: 5px;
+    margin: 5px auto;
+    height: 1px;
+}
+
+progress {
+    border: none;
+    width: 500px;
+    height: 12px;
+    background: rgb(228, 148, 164);
+}
+
+
+.progressBar::-webkit-progress-value {
+    background-color: #c16;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+            color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    background-size: 50px 50px;
+
+}
+
+
+.progressBar::-webkit-progress-bar {
+    background: rgb(230, 230, 250);
+}
+
+.progressBarDataSection {
+    margin: 30px 0;
+}
+
+.progressData {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
