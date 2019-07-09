@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: linear-gradient(#00000087, #000000c2), url(./img/laptop.jpg) center center fixed;
+    background: linear-gradient(#00000085, #00000085), url(./img/laptop.jpg) center center fixed;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ section {
     border: none;
     text-transform: uppercase;
     font-size: 0.75em;
-    background: linear-gradient(to bottom, #100f4a91, #8a8a8a87);
+    background: linear-gradient(to bottom, #2b27edbf, #a19c9c87);
     color: wheat;
     cursor: pointer;
     font-weight: 700;
